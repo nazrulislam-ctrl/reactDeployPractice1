@@ -25,8 +25,8 @@ function App() {
     </div>
     <div className="container mx-auto flex items-center justify-center h-[100px] gap-4">
       <button onClick={increment} className='btn btn-success'>Increase</button>
-      <button onClick={decrement} className='btn bg-red-700'>Decrease</button>
-      <button onClick={reset} className='btn bg-yellow-700'>Reset Counter</button>
+      <button onClick={decrement} className='btn bg-red-700 text-black'>Decrease</button>
+      <button onClick={reset} className='btn bg-yellow-400 text-black'>Reset Counter</button>
     </div>
     
     </>
